@@ -1,17 +1,24 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/* Version to mobile */
+
+/* Version to tablet */
+
+/* Version to desktop */
+
 header{
-    background-color: aqua;
+    background-color: white;
     position: fixed;
     height: 150px;
     width: calc(100% - 85%);
 }
 
 nav{
-    background-color: brown;
+    background-color: white;
     position: fixed;
     top: 150px;
     min-height: calc(100% - 300px);
@@ -19,14 +26,16 @@ nav{
 }
 
 aside{
+    right: 0;
     background-color: chartreuse;
     min-width: calc(100% - 25);
     position: absolute;
-    min-width: calc(80% - 15%);
+    min-width: calc(100% - 15%);
+    height: 100%;
 }
 
 footer{
-    background-color: purple;
+    background-color: white;
     position: fixed;
     height: 150px;
     width: calc(100% - 85%);
