@@ -11,32 +11,57 @@
 /* Version to desktop */
 
 header{
-    background-color: white;
-    position: fixed;
-    height: 150px;
-    width: calc(100% - 85%);
-}
-
-nav{
     background-color: red;
+    height: 100px;
     position: fixed;
-    top: 150px;
-    min-height: calc(100% - 300px);
     width: calc(100% - 85%);
 }
-
-aside{
+/*
+nav{
+    background-color: blue;
     right: 0;
-    background-color: chartreuse;
-    position: absolute;
+    height: 100px;
+    position: fixed;
     min-width: calc(100% - 15%);
-    height: 100%;
+}
+*/
+
+#menu-container{
+    background-color: brown;
+    height: 100px;
+    min-width: calc(100% - 15%);
+}
+
+#menu-container > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-container > ul > li{
+    display: inline-block;
+}
+
+#menu-container > ul > li > a{
+    color: while;
+    display: block;
+    text-decoration: none;
+}
+
+#menu-container > ul > li:hover{
+    background-color: snow;
+}
+    
+aside{
+   background-color: yellow;
+   bottom: 0;
+   min-height: calc(100% - 100px);
+   position: absolute;
+   width: 100%;
 }
 
 footer{
-    background-color: blue;
-    position: fixed;
-    height: 150px;
-    width: calc(100% - 85%);
-    bottom: 0;
+   background-color: green;
+   /* It's temporary */
+   display: none;
 }
