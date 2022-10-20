@@ -18,7 +18,7 @@ header{
 }
 
 nav{
-    background-color: white;
+    background-color: red;
     position: fixed;
     top: 150px;
     min-height: calc(100% - 300px);
@@ -28,14 +28,13 @@ nav{
 aside{
     right: 0;
     background-color: chartreuse;
-    min-width: calc(100% - 25);
     position: absolute;
     min-width: calc(100% - 15%);
     height: 100%;
 }
 
 footer{
-    background-color: white;
+    background-color: blue;
     position: fixed;
     height: 150px;
     width: calc(100% - 85%);
